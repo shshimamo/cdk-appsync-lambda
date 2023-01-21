@@ -1,0 +1,7 @@
+type user {
+  id: String!
+  name: String!
+}
+type Query {
+  userFind(id: String!): user!
+}
